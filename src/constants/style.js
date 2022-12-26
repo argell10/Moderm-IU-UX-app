@@ -1,8 +1,10 @@
-const styles = {
+export const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
-  heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph: "font-poppins font-normal text-dimWhite text-[18px] leading-[3.8px]",
+  heading2:
+    "font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
+  paragraph:
+    "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px]",
 
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
@@ -22,7 +24,12 @@ export const layout = {
   sectionImgReverse: `flex flex-1 ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex flex-1 ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
 
-  sectionInfo: `flex flex-1 ${styles.flexStart} flex-col`, 
-}
+  sectionInfo: `flex flex-1 ${styles.flexStart} flex-col`,
+};
 
-export default styles;
+export const colors_gradient = {
+  textGradientMain:
+    "text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-white",
+};
+
+
