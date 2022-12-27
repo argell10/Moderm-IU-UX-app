@@ -1,4 +1,4 @@
-export const styles = {
+const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2:
@@ -32,4 +32,5 @@ export const colors_gradient = {
     "text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-emerald-200 to-emerald-300",
 };
 
+export default styles;
 

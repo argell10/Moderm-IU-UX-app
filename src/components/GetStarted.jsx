@@ -1,4 +1,4 @@
-import { styles, colors_gradient } from "../constants/style";
+import styles, { colors_gradient } from "../constants/style";
 import { arrowUp } from "../assets";
 
 const GetStarted = () => (

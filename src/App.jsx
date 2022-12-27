@@ -1,4 +1,4 @@
-import {styles} from "./constants/style";
+import styles from "./constants/style";
 import {
   Navbar,
   Hero,

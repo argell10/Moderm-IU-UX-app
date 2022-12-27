@@ -16,3 +16,11 @@
     background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
     filter: blur(123px);
 }
+
+.bg-blue-gradient {
+  background: linear-gradient(-45deg,#6EFDEF 0.5% ,#ffffff );
+}
+
+.feature-card:hover {
+  background: linear-gradient(-45deg,#00040f, #334155);
+}
