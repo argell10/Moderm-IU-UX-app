@@ -12,7 +12,7 @@ const Starts = () => (
           {stat.value}
         </h4>
         <p
-          className={`font-poppins font-normal xs:leading-[26px] leading-[21px] xs:text-[20px] text-[15px] ${colors_gradient.textGradientMain} uppercase`}
+          className={`font-poppins font-normal xs:leading-[26px] leading-[21px] xs:text-[20px] text-[15px] ${colors_gradient.textGradientMain} uppercase ml-3`}
         >
           {stat.title}
         </p>
