@@ -29,7 +29,7 @@ export const layout = {
 
 export const colors_gradient = {
   textGradientMain:
-    "text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-white",
+    "text-transparent bg-clip-text bg-gradient-to-r from-emerald-500 via-emerald-200 to-emerald-300",
 };
 
 
