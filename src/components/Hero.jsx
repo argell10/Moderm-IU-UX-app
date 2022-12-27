@@ -20,7 +20,7 @@ const Hero = () => (
       <div className="flex flex-row justify-between items-center w-full">
         <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
           The Next <br className="sm:block hidden" />{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-emerald-100 to-emerald-200">
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 via-emerald-200 to-emerald-100">
             Generation
           </span>{" "}
         </h1>
