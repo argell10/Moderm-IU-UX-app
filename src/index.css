@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* vars */
+:root {
+  --slate-gradient: linear-gradient(-45deg,#00040f, #334155);
+}
+
+/* styles */
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
@@ -22,5 +28,17 @@
 }
 
 .feature-card:hover {
-  background: linear-gradient(-45deg,#00040f, #334155);
+  background: var(--slate-gradient);
+}
+
+.feedback-container .feedback-card:last-child {
+  margin-right: 0px;
+}
+
+.feedback-card {
+  background: transparent;
+}
+
+.feedback-card:hover {
+  background: var(--slate-gradient);
 }
